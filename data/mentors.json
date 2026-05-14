@@ -1245,7 +1245,7 @@
   },
   "libssh": {
     "org": "libssh",
-    "ideasUrl": "https://gitlab.com/libssh/libssh-mirror/-/wikis/Google-Summer-of-Code",
+    "ideasUrl": "https://www.libssh.org/development/google-summer-of-code/",
     "channels": [],
     "mentors": [],
     "mailingLists": [],
