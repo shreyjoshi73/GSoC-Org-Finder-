@@ -1245,12 +1245,12 @@
   },
   "libssh": {
     "org": "libssh",
-    "ideasUrl": "https://gitlab.com/libssh/libssh-mirror/-/wikis/Google-Summer-of-Code",
-    "channels": [],
-    "mentors": [],
+    "ideasUrl": "https://www.libssh.org/development/google-summer-of-code/",
+    "channels": ["MATRIX"],
+    "mentors": ["Jakub Jelen", "Sahana Prasad" ,"Eshan Kelkar"],
     "mailingLists": [],
     "tip": "",
-    "status": "fetch-failed",
+    "status": "ok",
     "lastFetched": "2026-05-09T16:09:12.548Z"
   },
   "Liquid Galaxy project": {
