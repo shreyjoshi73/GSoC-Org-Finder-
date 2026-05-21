@@ -1777,10 +1777,11 @@
     "status": "no-contact-found",
     "lastFetched": "2026-05-09T16:09:12.548Z"
   },
-  "OpenWISP": {
-    "org": "OpenWISP",
-    "ideasUrl": "https://openwisp.io/docs/dev/developer/gsoc-ideas-2026.html",
-    "channels": [{
+"OpenWISP": {
+  "org": "OpenWISP",
+  "ideasUrl": "https://openwisp.io/docs/dev/developer/gsoc-ideas-2026.html",
+  "channels": [
+    {
       "name": "General Chat",
       "url": "https://matrix.to/#/#openwisp_general:gitter.im"
     },
@@ -1789,21 +1790,26 @@
       "url": "https://matrix.to/#/#openwisp_development:gitter.im"
     }
   ],
-    "mentors": [ {
+  "mentors": [
+    {
       "name": "Federico Capoano",
-      "github": "nemesifier"
+      "github": "nemesifier",
+      "githubUrl": "https://github.com/nemesifier"
     },
     {
       "name": "Gagan Deep",
-      "github": "pandafy"
+      "github": "pandafy",
+      "githubUrl": "https://github.com/pandafy"
     }
   ],
-    "mailingLists": ["https://groups.google.com/d/forum/openwisp",
-    "https://groups.google.com/g/openwisp-gsoc"],
-    "tip": "",
-    "status": "ok",
-    "lastFetched": "2026-05-09T16:09:12.548Z"
-  },
+  "mailingLists": [
+    "https://groups.google.com/d/forum/openwisp",
+    "https://groups.google.com/g/openwisp-gsoc"
+  ],
+  "tip": "",
+  "status": "ok",
+  "lastFetched": "2026-05-09T16:09:12.548Z"
+},
   "Oppia Foundation": {
     "org": "Oppia Foundation",
     "ideasUrl": "https://github.com/oppia/oppia/wiki/Google-Summer-of-Code-2026",
