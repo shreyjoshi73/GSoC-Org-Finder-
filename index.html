@@ -2207,7 +2207,7 @@ sections.forEach(sectionId => {
     })();
 
     const sections = [];
-    if (entry.status === 'ok' && entry.channels.length > 0) {
+    if (entry.status === 'ok' && (entry.channels || []).length > 0) {
       sections.push(`
         <div>
           <p class="text-xs font-bold uppercase tracking-widest text-zinc-400 mb-3">Channels</p>
@@ -2216,7 +2216,7 @@ sections.forEach(sectionId => {
       `);
     }
 
-    if (entry.status === 'ok' && entry.mentors.length > 0) {
+    if (entry.status === 'ok' && (entry.mentors || []).length > 0) {
       sections.push(`
         <div>
           <p class="text-xs font-bold uppercase tracking-widest text-zinc-400 mb-3">Mentors</p>
