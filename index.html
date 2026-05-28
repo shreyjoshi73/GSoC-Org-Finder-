@@ -2656,7 +2656,8 @@ sections.forEach(sectionId => {
        `;
     card.querySelector('[data-compare-org]').dataset.compareOrg = org.name;
 
-    grid.appendChild(card);
+   grid.appendChild(card);
+   attachOrgCardListeners(card);
     });
 
     document.getElementById('orgCount').textContent = filteredOrgs.length;
@@ -2696,7 +2697,7 @@ sections.forEach(sectionId => {
         e.stopPropagation();
         openModal(btn.dataset.openOrg);
       });
-      btn.__orgListenerAttached = true;
+btn.__orgListenerAttached = true;
     });
   }
 
